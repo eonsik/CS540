@@ -1,2 +1,1 @@
-# CS540
-## Storm Surge
+# CS540 Storm Surge
