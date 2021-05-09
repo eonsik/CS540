@@ -10,8 +10,10 @@ This data sets use is to locate or pick a piece of property and check whether th
 ## To use the dataset by data queries:
 First download the StormSurge.query.sql file from the repository. This StormSurge.query.sql file should be then opened within a query tool in pgAdmin.
 
-`<addr> “C:\temp\cs540\Postgres\bin\psql.exe” -d -I -s 2236 -W “latin1” -g geom Strm_SurgeFDEM2017.shp volusia.stormsurge > stormsurge.sql
-“C:\temp\cs540\Postgres\bin\psql.exe” -U postgres -d spatial -f stormsurge.sql`
+```
+“C:\temp\cs540\Postgres\bin\psql.exe” -d -I -s 2236 -W “latin1” -g geom Strm_SurgeFDEM2017.shp volusia.stormsurge > stormsurge.sql
+“C:\temp\cs540\Postgres\bin\psql.exe” -U postgres -d spatial -f stormsurge.sql
+```
 
 
 
