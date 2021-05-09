@@ -14,8 +14,8 @@ from volusia.storm_surge s order by ST_SetSRID(s.geom, 2236) <-> (select p2.geom
 alter table volusia.parcel add column dist_stormsurge double precision;
 alter table volusia.parcel add column stormsurge text;
                                                                                             
-alter table volusia.sales_analysis add column dist_stormsurge double precision;
-alter table volusia.sales_analysis add column stormsurge text;
+--alter table volusia.sales_analysis add column dist_stormsurge double precision;
+--alter table volusia.sales_analysis add column stormsurge text;
 
 -- add the geometry column
 SELECT AddGeometryColumn ('volusia','parcel','geom',2236,'MULTIPOLYGON',2);
