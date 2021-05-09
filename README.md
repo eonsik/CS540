@@ -26,7 +26,7 @@ import pandas as pd
 
 
 # 1. Download Strm_SurgeFDEM2017 Files
-Download storm surge data from http://maps.vcgov.org/gis/download/shapes.htm
+Download storm surge data from http://maps.vcgov.org/gis/download/shapes.htm. This is the storm surge area information that has been gathered and distributed directly by the Volusia County. As it can be assumed by the file name, the file was last updated in 2017. Not only the storm surge data, above link provides multiple dataset in Shapefile format for Volusia County. 
 
 
 
